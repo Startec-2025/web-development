@@ -135,12 +135,13 @@ a{
 }
 
 .white-section {
+    box-sizing: border-box;
     flex: 1;
     background: white;
-    padding: 0px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     overflow-y: auto;
 }
@@ -380,6 +381,14 @@ a{
     display: flex;
     justify-content: center;
     text-decoration: none;
+}
+.form{
+    display: flexbox;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    width: 100vh;
+    height: 100vh;
 }
 /*end*/
 @keyframes fadeIn {
